@@ -36,10 +36,25 @@ public class GlavnaKlasa {
 		
 		// prolazak kroz String i uzimanje karaktera
 		
-		String password = "123klkMokkH";
+		/*
+		 * String password = "123klkMokkH";
+		 * 
+		 * Enkapsulacija.passwordValidation(password);
+		 */
 		
-		Enkapsulacija.passwordValidation(password);
+		// jedna napomena za poredjenje String-ova
 		
+		
+		String ime = "Pera";
+		String name = "Pera";
+		
+		String nome = new String("Pera");
+		
+		if(ime.equals(nome)) {
+			System.out.println("ISTI");
+		}else {
+			System.out.println("NISU");
+		}
 		
 		
 		
